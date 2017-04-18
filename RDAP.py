@@ -31,8 +31,6 @@ def rdap():
 				iprdap = iprdap.replace(',','\t')
 				print(iprdap,file=output2)
 				count += 1
-				if count == 200:
-					break
 		except urllib.error.URLError as e:
 			print(ip+' '+e.reason)
 			continue
