@@ -30,5 +30,6 @@ def geoip():
 		count += 1
 	print('Located ' + str(count) + ' IP addresses')
 
-geoip()
+if __name__=='__main__':
+        geoip()
 
