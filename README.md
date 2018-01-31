@@ -4,8 +4,7 @@ Python Challenge
 Use Parse.py to locate all IP addresses listed in a text file and print IP addresses to IPs_parsed.txt.
 Parse.py accepts the name of the text file to be parsed as input
 
-GeoIP.py will perform a GeoIP query on IP addresses and print data to geoip_output.txt and geoip_output.csv.
-As input, GeoIP.py accepts the name of the text file that includes IP addresses to be located
+geo_ip.py will perform a GeoIP query on IP addresses and return a pandas dataframe for subsequent analysis
 
 RDAP.py will perform a RDAP query on IP addresses and print data to rdap_output.txt and rdap_output.csv.
 As input, RDAP.py accepts the name of the text file that includes IP addresses to be queried
