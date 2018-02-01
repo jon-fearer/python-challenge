@@ -1,5 +1,6 @@
 import re
 
+#provide path to .txt file containing ip addresses to be parsed
 def parse(file):
         inputfile = open(file,'r')
         iplist = []
