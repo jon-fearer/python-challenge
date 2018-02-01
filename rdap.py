@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 
+# Supply a list of ip addresses and return a pandas dataframe with rdap lookup data
 def rdap(iplist):
         url = 'http://rdap.arin.net/bootstrap/ip/'
         data = []
