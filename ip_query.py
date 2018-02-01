@@ -1,4 +1,3 @@
-import re
 import pandas as pd
 
 # combine dataframes from geoip and rdap lookups
