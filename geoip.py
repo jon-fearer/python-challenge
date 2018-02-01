@@ -11,7 +11,5 @@ def geoip(iplist):
                         columns = [key for key in resp.json().keys()]
                 data.append([resp.json()[key] for key in columns])
         return pd.DataFrame(data=data,columns=columns)
-                
-if __name__=='__main__':
-        geoip()
+
 
